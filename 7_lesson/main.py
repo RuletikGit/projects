@@ -4,11 +4,7 @@ from time import sleep
 from random import choice
 
 
-players = []
-game = False
-TOKEN = '6762166176:AAFpzuMZ_FGVZUYrIQojqCkXlXVW9aPMAFE'
-bot = TeleBot(TOKEN)
-night = False
+
 
 
 def get_killed(night):
